@@ -18,4 +18,5 @@ public class LoginForm extends JFrame{
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.pack();
     }
+    //RAFAEL QUE ESCREVEU
 }
