@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class LoginForm extends JFrame{
 
@@ -17,5 +19,12 @@ public class LoginForm extends JFrame{
         this.setContentPane(this.LoginPanel);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.pack();
+
+        loginButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 }
