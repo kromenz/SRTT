@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
-
+import java.util.concurrent.locks.ReentrantLock;
 public class Repository implements Serializable{
 
     private static Repository repo = null;
@@ -14,6 +14,17 @@ public class Repository implements Serializable{
     public Map<String, Users> getUsers() {return users;}
     public Map<String, Admin> getAdmins() {return admins;}
 
+    public static Repository getRepository(){
+
+        ReentrantLock lock = new ReentrantLock();
+
+        lock.lock();
+        if (repo == null)
+            repo = new Repository();
+        lock.unlock();
+
+        return repo;
+    }
     public void serialize(String filename){ /*Converter os objetos em bytes*/
 
         try{
