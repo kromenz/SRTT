@@ -11,6 +11,7 @@ public class RegisterForm extends JFrame {
     private JTextField tFNome;
     private JTextField tFSobrenome;
     private JTextField tFData;
+    private JTextField tFNIF;
 
     class SexoItem {
         private String key;
