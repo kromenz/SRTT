@@ -6,12 +6,11 @@ public class RegisterForm extends JFrame {
     private JPanel RegisterPanel;
     private JTextField tF_LoginUsername;
     private JPasswordField pF_LoginPass;
-    private JButton cancelButton;
     private JButton registarButton;
     private JComboBox cBSexo;
-    private JPasswordField tFDataNascimento;
     private JTextField tFNome;
     private JTextField tFSobrenome;
+    private JTextField tFData;
 
     class SexoItem {
         private String key;
@@ -42,19 +41,13 @@ public class RegisterForm extends JFrame {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.pack();
 
-        this.cBSexo.addItem(new SexoItem("Macho", "M"));
-        this.cBSexo.addItem(new SexoItem("Femea", "F"));
+        this.cBSexo.addItem(new SexoItem("Masculino", "M"));
+        this.cBSexo.addItem(new SexoItem("Feminino", "F"));
 
         registarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-            }
-        });
-        cancelButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.exit(0);
             }
         });
     }

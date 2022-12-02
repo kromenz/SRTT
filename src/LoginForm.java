@@ -26,5 +26,15 @@ public class LoginForm extends JFrame{
 
             }
         });
+        registarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+
+                RegisterForm registerForm = new RegisterForm("Registar");
+                registerForm.setVisible(true);
+            }
+
+        });
     }
 }
