@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.DateFormat;
+import java.util.Date;
 
 public class RegisterForm extends JFrame {
     private JPanel RegisterPanel;
@@ -12,6 +14,7 @@ public class RegisterForm extends JFrame {
     private JTextField tFSobrenome;
     private JTextField tFData;
     private JTextField tFNIF;
+    private JLabel labelMensagemErro;
 
     class SexoItem {
         private String key;
@@ -48,7 +51,24 @@ public class RegisterForm extends JFrame {
         registarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                //Obter os dados inseridos
+                Users newUser = new Users();
+                newUser.setNIF(Integer.valueOf(tFNIF.getText().toString()));
+                newUser.setName(tFNome.getText().toString());
+                newUser.setLastName(tFSobrenome.getText().toString());
+                newUser.setBirthDate(tFData.getText().toString());
+                newUser.setGener(((SexoItem) cBSexo.getSelectedItem()).getValue().toString());
+                newUser.setUsername(tF_LoginUsername.getText().toString());
+                newUser.setPassword(pF_LoginPass.getPassword().toString());
+                newUser.setType("Freelancer");
 
+                UsersREP.createUsers(newUser);
+                labelMensagemErro.setText("Utilizador registado! Bem-Vindo " + newUser.getName());
+                try{
+                    Main.repo.registarUser(newUser);
+                }catch (LoginException ex){
+                    labelMensagemErro.setText("Erro: " + ex.getMessage());
+                }
             }
         });
     }

@@ -1,8 +1,9 @@
 import javax.swing.*;
 
 public class Main {
+    public static Repository repo = new Repository();
     public static void main(String[] args) {
-        Repository repo;
+
         Repository.deserialize("src\\data\\users.repo");
         repo=Repository.getRepository();
         if(repo.getAdmins().size() == 0){
@@ -17,5 +18,6 @@ public class Main {
         }
         LoginForm frameLogin = new LoginForm("SRTT");
         frameLogin.setVisible(true);
+
     }
 }

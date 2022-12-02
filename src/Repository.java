@@ -65,4 +65,15 @@ public class Repository implements Serializable{
             System.out.println("Repository class not found. " + ex.getMessage());
         }
     }
+
+    public void registarUser(Users users) throws LoginException{
+        boolean exist = false;
+        for(Users user: this.users.values())
+            if(users.getNIF() == user.getNIF())
+                exist = true;
+        if(!exist)
+            this.users.put(Integer.toString(users.getNIF()),users);
+        else
+            throw new LoginException("Esse utilizador já está registado no sistema.");
+    }
 }

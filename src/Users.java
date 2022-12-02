@@ -7,9 +7,10 @@ public class Users implements Serializable {
     private String name;
     private String lastName;
     private String birthDate;
+    private String gener;
     private String username;
     private String password;
-    private String NIF;
+    private int NIF;
     private String type;
 
     private List<Project> projects;
@@ -44,6 +45,12 @@ public class Users implements Serializable {
     public void setBirthDate(String birthDate) {
         this.birthDate = birthDate;
     }
+    public String getGener() {
+        return gener;
+    }
+    public void setGener(String gener) {
+        this.gener = gener;
+    }
     public String getUsername() {
         return username;
     }
@@ -56,10 +63,10 @@ public class Users implements Serializable {
     public void setPassword(String password) {
         this.password = password;
     }
-    public String getNIF() {
+    public int getNIF() {
         return NIF;
     }
-    public void setNIF(String NIF) {
+    public void setNIF(int NIF) {
         this.NIF = NIF;
     }
     public String getType() {
