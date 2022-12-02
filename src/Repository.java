@@ -8,11 +8,23 @@ public class Repository implements Serializable{
 
     private Map<String, Users> users = new HashMap<>();
     private Map<String, Admin> admins = new HashMap<>();
+    private Map<String, Project> projects = new HashMap<>();
+    private Map<String, Tasks> tasks = new HashMap<>();
     //private Map<String, Users> users = new HashMap<>();
 
     public Repository(){};
-    public Map<String, Users> getUsers() {return users;}
-    public Map<String, Admin> getAdmins() {return admins;}
+    public Map<String, Users> getUsers() {
+        return users;
+    }
+    public Map<String, Admin> getAdmins() {
+        return admins;
+    }
+    public Map<String, Project> getProjects() {
+        return projects;
+    }
+    public Map<String, Tasks> getTasks() {
+        return tasks;
+    }
 
     public static Repository getRepository(){
 
