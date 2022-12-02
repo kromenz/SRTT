@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faa6e5f9-1f41-4b29-b31e-a8754c3e43ca" name="Changes" comment="Layout Login" />
+    <list default="true" id="faa6e5f9-1f41-4b29-b31e-a8754c3e43ca" name="Changes" comment="--">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +37,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "225",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/diogo/Desktop/TrabalhoProg2/trabPraticoProg2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669924727299</updated>
       <workItem from="1669924728634" duration="12503000" />
+      <workItem from="1669990636926" duration="2055000" />
     </task>
     <task id="LOCAL-00001" summary="Layout Login">
       <created>1669932237019</created>
@@ -81,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669946858061</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="--">
+      <created>1669990803053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669990803053</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Layout Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layout Login" />
+    <MESSAGE value="--" />
+    <option name="LAST_COMMIT_MESSAGE" value="--" />
   </component>
 </project>
