@@ -23,7 +23,9 @@ public class LoginForm extends JFrame{
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                dispose();
+                UIForm uiForm = new UIForm("Menu");
+                uiForm.setVisible(true);
             }
         });
         registarButton.addActionListener(new ActionListener() {

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faa6e5f9-1f41-4b29-b31e-a8754c3e43ca" name="Changes" comment="Registar" />
+    <list default="true" id="faa6e5f9-1f41-4b29-b31e-a8754c3e43ca" name="Changes" comment="Registar">
+      <change afterPath="$PROJECT_DIR$/src/UIForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UIForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginForm.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "225",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/diogo/Desktop/Universidade/suinicultura_src/src",
@@ -49,6 +56,7 @@
       <workItem from="1669924728634" duration="12503000" />
       <workItem from="1669990636926" duration="2264000" />
       <workItem from="1669993276033" duration="14823000" />
+      <workItem from="1670068366301" duration="7897000" />
     </task>
     <task id="LOCAL-00001" summary="Layout Login">
       <created>1669932237019</created>
