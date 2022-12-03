@@ -10,7 +10,7 @@ public class Users implements Serializable {
     private String gener;
     private String username;
     private String password;
-    private int NIF;
+    private String NIF;
     private String type;
 
     private List<Project> projects;
@@ -63,10 +63,10 @@ public class Users implements Serializable {
     public void setPassword(String password) {
         this.password = password;
     }
-    public int getNIF() {
+    public String getNIF() {
         return NIF;
     }
-    public void setNIF(int NIF) {
+    public void setNIF(String NIF) {
         this.NIF = NIF;
     }
     public String getType() {

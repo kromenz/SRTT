@@ -16,6 +16,7 @@ public class Main {
             a1.setPassword("admin123");
             AdminREP.createAdmin(a1);
         }
+
         LoginForm frameLogin = new LoginForm("SRTT");
         frameLogin.setVisible(true);
 

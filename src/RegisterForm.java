@@ -53,7 +53,7 @@ public class RegisterForm extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 //Obter os dados inseridos
                 Users newUser = new Users();
-                newUser.setNIF(Integer.valueOf(tFNIF.getText().toString()));
+                newUser.setNIF(tFNIF.getText().toString());
                 newUser.setName(tFNome.getText().toString());
                 newUser.setLastName(tFSobrenome.getText().toString());
                 newUser.setBirthDate(tFData.getText().toString());

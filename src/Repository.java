@@ -71,8 +71,8 @@ public class Repository implements Serializable{
         for(Users user: this.users.values())
             if(users.getNIF() == user.getNIF())
                 exist = true;
-        if(!exist)
-            this.users.put(Integer.toString(users.getNIF()),users);
+        if(exist)
+            this.users.put(users.getNIF(),users);
         else
             throw new LoginException("Esse utilizador já está registado no sistema.");
     }

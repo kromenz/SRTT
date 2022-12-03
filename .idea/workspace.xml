@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa6e5f9-1f41-4b29-b31e-a8754c3e43ca" name="Changes" comment="Registar">
-      <change afterPath="$PROJECT_DIR$/src/UIForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UIForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminREP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminREP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UsersREP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UsersREP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/users.repo" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/users.repo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "225",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/diogo/Desktop/Universidade/suinicultura_src/src",
+    "last_opened_file_path": "C:/Users/diogo/Desktop/TrabalhoProg2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -57,6 +59,7 @@
       <workItem from="1669990636926" duration="2264000" />
       <workItem from="1669993276033" duration="14823000" />
       <workItem from="1670068366301" duration="7897000" />
+      <workItem from="1670090405707" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="Layout Login">
       <created>1669932237019</created>
