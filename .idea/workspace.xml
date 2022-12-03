@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faa6e5f9-1f41-4b29-b31e-a8754c3e43ca" name="Changes" comment="Registar">
+    <list default="true" id="faa6e5f9-1f41-4b29-b31e-a8754c3e43ca" name="Changes" comment="Registar admin/user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdminREP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminREP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UsersREP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UsersREP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/users.repo" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/users.repo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +55,7 @@
       <workItem from="1669990636926" duration="2264000" />
       <workItem from="1669993276033" duration="14823000" />
       <workItem from="1670068366301" duration="7897000" />
-      <workItem from="1670090405707" duration="645000" />
+      <workItem from="1670090405707" duration="1277000" />
     </task>
     <task id="LOCAL-00001" summary="Layout Login">
       <created>1669932237019</created>
@@ -145,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670011902219</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Registar admin/user">
+      <created>1670091316341</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670091316341</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +169,7 @@
     <MESSAGE value="Layout Login" />
     <MESSAGE value="--" />
     <MESSAGE value="Registar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registar" />
+    <MESSAGE value="Registar admin/user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registar admin/user" />
   </component>
 </project>

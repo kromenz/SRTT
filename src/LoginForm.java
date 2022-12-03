@@ -23,9 +23,26 @@ public class LoginForm extends JFrame{
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                dispose();
-                UIForm uiForm = new UIForm("Menu");
-                uiForm.setVisible(true);
+                boolean exist = false;
+
+                try{
+                    Repository repo;
+                    repo = Repository.getRepository();
+
+                    for(Users user : repo.getUsers().values()){
+                        if(user.getUsername().equalsIgnoreCase(tF_LoginUsername.getText()) && user.getPassword().equals(pF_LoginPass.getText())){
+                            exist = true;
+                            dispose();
+                            UIForm uiForm = new UIForm("Menu Utilizador");
+                            uiForm.setVisible(true);
+                        }
+                    }
+                    if(!exist){
+                        JOptionPane.showMessageDialog(null,"Utilizador/Password erradas!");
+                    }
+                }catch (Exception ex){
+                    System.out.println("Erro: " + ex.getMessage());
+                }
             }
         });
         registarButton.addActionListener(new ActionListener() {

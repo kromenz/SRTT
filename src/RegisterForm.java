@@ -15,6 +15,7 @@ public class RegisterForm extends JFrame {
     private JTextField tFData;
     private JTextField tFNIF;
     private JLabel labelMensagemErro;
+    private JButton backButton;
 
     class SexoItem {
         private String key;
@@ -69,6 +70,15 @@ public class RegisterForm extends JFrame {
                 }catch (LoginException ex){
                     labelMensagemErro.setText("Erro: " + ex.getMessage());
                 }
+            }
+        });
+        backButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+
+                LoginForm loginForm = new LoginForm("Login");
+                loginForm.setVisible(true);
             }
         });
     }
