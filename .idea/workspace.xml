@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faa6e5f9-1f41-4b29-b31e-a8754c3e43ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SRTT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="faa6e5f9-1f41-4b29-b31e-a8754c3e43ca" name="Changes" comment="Registar admin/user">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +12,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -42,7 +34,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "225",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/diogo/Desktop/TrabalhoProg2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,8 +49,111 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669924727299</updated>
-      <workItem from="1669924728634" duration="2111000" />
+      <workItem from="1669924728634" duration="12503000" />
+      <workItem from="1669990636926" duration="2264000" />
+      <workItem from="1669993276033" duration="14823000" />
+      <workItem from="1670068366301" duration="7897000" />
+      <workItem from="1670090405707" duration="1518000" />
     </task>
+    <task id="LOCAL-00001" summary="Layout Login">
+      <created>1669932237019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669932237020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Layout Login">
+      <created>1669933045104</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669933045104</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Layout Login">
+      <created>1669934966087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669934966087</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Layout Login">
+      <created>1669941758501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669941758501</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Layout Login">
+      <created>1669946858061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669946858061</updated>
+    </task>
+    <task id="LOCAL-00006" summary="--">
+      <created>1669990803053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669990803053</updated>
+    </task>
+    <task id="LOCAL-00007" summary="--">
+      <created>1669992883867</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669992883867</updated>
+    </task>
+    <task id="LOCAL-00008" summary="--">
+      <created>1669992892821</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669992892821</updated>
+    </task>
+    <task id="LOCAL-00009" summary="--">
+      <created>1669996655147</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669996655147</updated>
+    </task>
+    <task id="LOCAL-00010" summary="--">
+      <created>1669996667186</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669996667186</updated>
+    </task>
+    <task id="LOCAL-00011" summary="--">
+      <created>1670005606072</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670005606072</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Registar">
+      <created>1670011902219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670011902219</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Registar admin/user">
+      <created>1670091316341</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670091316341</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Registar admin/user">
+      <created>1670091906041</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670091906041</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,5 +169,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Layout Login" />
+    <MESSAGE value="--" />
+    <MESSAGE value="Registar" />
+    <MESSAGE value="Registar admin/user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registar admin/user" />
   </component>
 </project>
